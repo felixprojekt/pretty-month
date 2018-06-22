@@ -8,7 +8,7 @@ function pretty_month($month_id) {
 
 	$months = ["ledna", "února", "března", "dubna", "května", "června", "července", "srpna", "září", "října", "listopadu", "prosince"];
 
-	return $months[$month_id - 1];
+	return $months[$month - 1];
 }
 
 ?>
